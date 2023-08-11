@@ -15,9 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex flex-col justify-between bg-slate-800 text-white px-4 mx-auto min-w-[344px] max-w-[1024px] min-h-screen">
+      <body className="font-body text-white/85 flex flex-col justify-between bg-slate-800 text-white mx-auto min-w-[344px] max-w-[1024px] min-h-screen">
         <Navbar />
-        <div className="min-h-[calc(100vh-160px)] mt-4 mb-8">{children}</div>
+        <div className="min-h-[calc(100vh-178px)] mt-8 mb-8 px-4">
+          <main>{children}</main>
+        </div>
         <Footer />
       </body>
     </html>
