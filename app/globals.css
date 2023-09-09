@@ -13,3 +13,7 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+.privacy-notice p {
+  margin-bottom: 1rem;
+}

@@ -12,6 +12,8 @@ module.exports = {
     extend: {
       colors: {
         primary: colors.amber,
+        secondary: colors.blue,
+        dark: colors.slate,
       },
       fontFamily: {
         header: ["Anton"],

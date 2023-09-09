@@ -1,17 +1,25 @@
-import Devicon from "@/components/Devicon";
 import H2 from "@/components/H2";
 import H3 from "@/components/H3";
 import { Fragment } from "react";
+import Devicon from "./Devicon";
 
 const technologies = {
   Browser: [
     {
-      label: "TypeScript",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      label: "HTML",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    },
+    {
+      label: "CSS",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
     },
     {
       label: "JavaScript",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    },
+    {
+      label: "TypeScript",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
     },
     {
       label: "React",
@@ -20,14 +28,6 @@ const technologies = {
     {
       label: "Next",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
-    },
-    {
-      label: "HTML",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-    },
-    {
-      label: "CSS",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
     },
   ],
   Server: [
@@ -38,6 +38,10 @@ const technologies = {
     {
       label: "Go",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg",
+    },
+    {
+      label: "Node",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg",
     },
     {
       label: "PostgreSQL",
@@ -80,13 +84,13 @@ const technologies = {
 
 export default function Technologies() {
   return (
-    <>
+    <div>
       <H2>Technologies</H2>
       <div className="flex flex-col gap-8">
         {Object.entries(technologies).map(([name, list]) => (
           <div key={name}>
             <H3>{name}</H3>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
               {list.map((item) => (
                 <Fragment key={item.label}>
                   <Devicon label={item.label} src={item.src} />
@@ -96,6 +100,6 @@ export default function Technologies() {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
