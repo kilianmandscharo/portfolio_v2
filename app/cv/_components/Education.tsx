@@ -30,7 +30,7 @@ export default function Education() {
         <CVItem
           period="09/2006 - 07/2014"
           institution="Joseph-Bernhart Gymnasium Türkheim"
-          header="Math and science focused branch"
+          header="Math and science focus"
           points={["Degree: Abitur (2,1)"]}
         />
       </div>

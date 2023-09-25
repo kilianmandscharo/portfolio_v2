@@ -14,7 +14,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="w-full flex justify-between sticky top-0 bg-dark-700 p-4 border-b border-b-slate-700 shadow-md">
+    <nav className="w-full flex justify-between sticky top-0 bg-dark-700 p-4 border-b border-b-slate-700 shadow-md z-50">
       {pages.map((p) => (
         <NavItem
           key={p.name}

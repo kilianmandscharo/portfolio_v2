@@ -8,7 +8,7 @@ export default function CV() {
   return (
     <>
       <H1>CV</H1>
-      <div className="grid gap-8">
+      <div className="grid gap-12">
         <Education />
         <WorkExperience />
         <Technologies />
