@@ -127,16 +127,13 @@ export default function PrivacyNotice() {
         Website ist:
       </p>{" "}
       <p>
-        [NAME]
+        Dominik Heller
         <br />
-        [STRASSE]
+        Alleestr. 15
         <br />
-        [ORT]
-      </p>
-      <p>
-        [TELEFON]
+        86860 Jengen
         <br />
-        [E-MAIL]
+        domi.heller[at]gmx.de
       </p>
       <p>
         Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person,

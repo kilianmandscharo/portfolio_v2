@@ -7,11 +7,10 @@ export default function Imprint() {
       <H1>Impressum</H1>
       <div className="mb-8">
         <H2>Kontakt</H2>
-        <p>[NAME]</p>
-        <p>[STRASSE]</p>
-        <p>[ORT]</p>
-        <p>[TELEFON]</p>
-        <p>[E-MAIL]</p>
+        <p>Dominik Heller</p>
+        <p>Alleestr. 15</p>
+        <p>86860 Jengen</p>
+        <p>domi.heller[at]gmx.de</p>
       </div>
       <div className="mb-8">
         <H2>Haftung für Links</H2>
