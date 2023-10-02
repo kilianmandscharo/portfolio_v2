@@ -8,9 +8,9 @@ export default function About() {
         full-stack web development.
       </P>
       <P>
-        During my time in the Media Studies master's program at the{" "}
-        <span className="italic">University of Regensburg</span>, I found my way
-        into programming – mainly through taking university classes on the
+        During my time in the Media Studies master's program at the
+        <span className="italic"> University of Regensburg</span>, I found my
+        way into programming – mainly through taking university classes on the
         subject and doing a lot of self-teaching in conjunction. Simultaneously,
         I was learning about digital computers from a theoretical perspective,
         about their fundamental workings, their early history and their present
@@ -23,8 +23,8 @@ export default function About() {
         foundation in programming.
       </P>
       <P>
-        Coming out of university, I landed a job at{" "}
-        <span className="italic">Synsor.ai GmbH</span>, where I worked on an
+        Coming out of university, I landed a job at
+        <span className="italic"> Synsor.ai GmbH</span>, where I worked on an
         application for AI-based visual quality inspection as a full-stack web
         developer.
       </P>
