@@ -8,7 +8,7 @@ export default function About() {
         full-stack web development.
       </P>
       <P>
-        During my time in the Media Studies master's program at the
+        During my time in the Media Studies master&apos;s program at the
         <span className="italic"> University of Regensburg</span>, I found my
         way into programming – mainly through taking university classes on the
         subject and doing a lot of self-teaching in conjunction. Simultaneously,
@@ -19,8 +19,8 @@ export default function About() {
         practical – where new knowledge on one side leads to a greater interest
         in the other and vice versa. After completing my studies with a thesis
         about learning machines, mostly focusing on the history of Cybernetics
-        and Deep Learning, I left university with a master's degree and a solid
-        foundation in programming.
+        and Deep Learning, I left university with a master&apos;s degree and a
+        solid foundation in programming.
       </P>
       <P>
         Coming out of university, I landed a job at
