@@ -1,4 +1,4 @@
-import H2 from "@/components/H2";
+import H2 from "@/app/_components/H2";
 import CVItem from "./CVItem";
 
 export default function WorkExperience() {
@@ -7,7 +7,7 @@ export default function WorkExperience() {
       <H2>Work Experience</H2>
       <div className="flex flex-col gap-6">
         <CVItem
-          period="05/2022 - today"
+          period="05/2022 - 09/2023"
           institution="Synsor.ai GmbH"
           header="Junior Software-Developer"
           points={[

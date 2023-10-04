@@ -1,4 +1,4 @@
-import P from "@/components/P";
+import P from "@/app/_components/P";
 
 export default function About() {
   return (

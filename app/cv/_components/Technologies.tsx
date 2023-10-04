@@ -1,5 +1,5 @@
-import H2 from "@/components/H2";
-import H3 from "@/components/H3";
+import H2 from "@/app/_components/H2";
+import H3 from "@/app/_components/H3";
 import { Fragment } from "react";
 import Devicon from "./Devicon";
 

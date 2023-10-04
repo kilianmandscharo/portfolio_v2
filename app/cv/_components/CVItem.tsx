@@ -13,12 +13,12 @@ export default function CVItem({ period, institution, header, points }: Props) {
         <p>{period}</p>
       </div>
       <div className="py-2 px-4">
-        {header !== undefined && <p className="text-primary-300">{header}</p>}
-        {points?.map((p) => (
-          <p key={p}>
-            <span className="text-primary-300">•</span> {p}
-          </p>
-        ))}
+        {header !== undefined && <p className="text-secondary-300">{header}</p>}
+        <ul className="list-disc">
+          {points?.map((p) => (
+            <li key={p}>{p}</li>
+          ))}
+        </ul>
       </div>
     </div>
   );

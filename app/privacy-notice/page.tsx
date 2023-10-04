@@ -1,7 +1,7 @@
-import H1 from "@/components/H1";
-import H2 from "@/components/H2";
-import H3 from "@/components/H3";
-import H4 from "@/components/H4";
+import H1 from "@/app/_components/H1";
+import H2 from "@/app/_components/H2";
+import H3 from "@/app/_components/H3";
+import H4 from "@/app/_components/H4";
 
 export default function PrivacyNotice() {
   return (

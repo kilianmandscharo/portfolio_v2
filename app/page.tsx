@@ -1,4 +1,4 @@
-import H1 from "@/components/H1";
+import H1 from "@/app/_components/H1";
 import Contact from "./_components/Contact";
 import About from "./_components/About";
 

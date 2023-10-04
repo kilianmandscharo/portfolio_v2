@@ -1,5 +1,5 @@
-import H1 from "@/components/H1";
-import H2 from "@/components/H2";
+import H1 from "@/app/_components/H1";
+import H2 from "@/app/_components/H2";
 
 export default function Music() {
   return (

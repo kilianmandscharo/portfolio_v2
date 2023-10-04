@@ -1,4 +1,4 @@
-import H1 from "@/components/H1";
+import H1 from "@/app/_components/H1";
 import Project from "./_components/Project";
 
 export default function Projects() {
@@ -8,7 +8,7 @@ export default function Projects() {
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
         <Project
           name="Visualizing Algorithms"
-          img="/images/algorithms.png"
+          img="/images/algorithms.jpg"
           links={[
             {
               name: "Website",
@@ -46,7 +46,7 @@ export default function Projects() {
         />
         <Project
           name="Wortspiel"
-          img="/images/wortspiel.png"
+          img="/images/wortspiel.jpg"
           links={[
             {
               name: "Website",
@@ -60,7 +60,7 @@ export default function Projects() {
         />
         <Project
           name="Musikgym"
-          img="/images/notes.png"
+          img="/images/notes.jpg"
           links={[
             {
               name: "Website",
@@ -74,7 +74,7 @@ export default function Projects() {
         />
         <Project
           name="Runner App"
-          img="/images/runner.png"
+          img="/images/runner.jpg"
           links={[
             {
               name: "GitHub",
@@ -84,7 +84,7 @@ export default function Projects() {
         />
         <Project
           name="Snake"
-          img="/images/snake.png"
+          img="/images/snake.jpg"
           links={[
             {
               name: "GitHub",
@@ -94,7 +94,7 @@ export default function Projects() {
         />
         <Project
           name="Visualizing Algorithms 2"
-          img="/images/algorithms_2.png"
+          img="/images/algorithms_2.jpg"
           links={[
             {
               name: "GitHub",

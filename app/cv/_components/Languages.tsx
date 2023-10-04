@@ -1,4 +1,4 @@
-import H2 from "@/components/H2";
+import H2 from "@/app/_components/H2";
 import LanguageItem from "./LanguageItem";
 
 export default function Languages() {

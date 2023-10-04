@@ -1,4 +1,4 @@
-import H1 from "@/components/H1";
+import H1 from "@/app/_components/H1";
 import Education from "./_components/Education";
 import WorkExperience from "./_components/WorkExperience";
 import Languages from "./_components/Languages";
@@ -9,8 +9,8 @@ export default function CV() {
     <>
       <H1>CV</H1>
       <div className="grid gap-12">
-        <Education />
         <WorkExperience />
+        <Education />
         <Technologies />
         <Languages />
       </div>
