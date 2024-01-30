@@ -20,7 +20,7 @@ export default function Project({ name, img, links }: Props) {
   };
 
   return (
-    <div className="bg-dark-700 rounded-md p-4 flex flex-col justify-between items-center gap-4">
+    <div className="bg-dark-700 rounded-md p-8 flex flex-col justify-between items-center gap-4">
       <p className="text-xl">{name}</p>
       <div
         className="relative max-w-[250px] max-h-[250px] min-w-[100px] min-h-[100px]"

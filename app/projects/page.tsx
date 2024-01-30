@@ -21,6 +21,30 @@ export default function Projects() {
           ]}
         />
         <Project
+          name="Musikgym"
+          img="/images/notes.jpg"
+          links={[
+            {
+              name: "Website",
+              url: "https://musikgym.netlify.app/",
+            },
+            {
+              name: "GitHub",
+              url: "https://github.com/kilianmandscharo/music_training",
+            },
+          ]}
+        />
+        <Project
+          name="Runner App"
+          img="/images/runner.jpg"
+          links={[
+            {
+              name: "GitHub",
+              url: "https://github.com/kilianmandscharo/running_app",
+            },
+          ]}
+        />
+        <Project
           name="Todo CLI app"
           img="/images/todo.jpg"
           links={[
@@ -55,30 +79,6 @@ export default function Projects() {
             {
               name: "GitHub",
               url: "https://github.com/kilianmandscharo/wortspiel",
-            },
-          ]}
-        />
-        <Project
-          name="Musikgym"
-          img="/images/notes.jpg"
-          links={[
-            {
-              name: "Website",
-              url: "https://musikgym.netlify.app/",
-            },
-            {
-              name: "GitHub",
-              url: "https://github.com/kilianmandscharo/music_training",
-            },
-          ]}
-        />
-        <Project
-          name="Runner App"
-          img="/images/runner.jpg"
-          links={[
-            {
-              name: "GitHub",
-              url: "https://github.com/kilianmandscharo/running_app",
             },
           ]}
         />
