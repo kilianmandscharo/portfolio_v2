@@ -12,7 +12,7 @@ export default function Projects() {
           links={[
             {
               name: "Website",
-              url: "https://visualize-algorithms.netlify.app",
+              url: "https://visualize-algorithms.pages.dev",
             },
             {
               name: "GitHub",
@@ -26,7 +26,7 @@ export default function Projects() {
           links={[
             {
               name: "Website",
-              url: "https://musikgym.netlify.app/",
+              url: "https://music-training.pages.dev",
             },
             {
               name: "GitHub",
