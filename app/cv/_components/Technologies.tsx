@@ -27,21 +27,25 @@ const technologies = {
     },
     {
       label: "Next",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
     },
   ],
   Server: [
     {
-      label: "Python",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      label: "Node",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg",
     },
     {
       label: "Go",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg",
     },
     {
-      label: "Node",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg",
+      label: "Python",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    },
+    {
+      label: "Rust",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg",
     },
     {
       label: "PostgreSQL",
@@ -50,16 +54,6 @@ const technologies = {
     {
       label: "SQLite",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg",
-    },
-  ],
-  System: [
-    {
-      label: "Rust",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg",
-    },
-    {
-      label: "C",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
     },
   ],
   Tools: [
@@ -85,12 +79,12 @@ const technologies = {
 export default function Technologies() {
   return (
     <div>
-      <H2>Technologies</H2>
-      <div className="flex flex-col gap-8">
+      <H2 showBorder mb="mb-6">Technologies</H2>
+      <div className="flex flex-col gap-4">
         {Object.entries(technologies).map(([name, list]) => (
           <div key={name}>
             <H3>{name}</H3>
-            <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
               {list.map((item) => (
                 <Fragment key={item.label}>
                   <Devicon label={item.label} src={item.src} />

@@ -2,23 +2,20 @@ interface Props {
   period: string;
   institution: string;
   header?: string;
-  points?: string[];
+  text?: string;
 }
 
-export default function CVItem({ period, institution, header, points }: Props) {
+export default function CVItem({ period, institution, header, text }: Props) {
   return (
-    <div className="grid gap-4 md:gap-8 leading-7 md:grid-cols-2">
-      <div className="flex flex-col justify-center bg-dark-700 py-2 px-4 rounded-md">
-        <p className="font-bold text-secondary-300">{institution}</p>
-        <p>{period}</p>
+    <div className="flex justify-between gap-8">
+      <div>
+        <p className="font-bold text-lg text-secondary-300 mb-2">
+          {institution} - {header ?? ""}
+        </p>
+        <p className="font-light">{text ?? ""}</p>
       </div>
-      <div className="py-2 px-4">
-        {header !== undefined && <p className="text-secondary-300">{header}</p>}
-        <ul className="list-disc">
-          {points?.map((p) => (
-            <li key={p}>{p}</li>
-          ))}
-        </ul>
+      <div>
+        <p className="font-thin text-white">{period}</p>
       </div>
     </div>
   );

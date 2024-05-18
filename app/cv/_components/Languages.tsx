@@ -4,8 +4,8 @@ import LanguageItem from "./LanguageItem";
 export default function Languages() {
   return (
     <div>
-      <H2>Languages</H2>
-      <div className="grid gap-4 md:gap-8 leading-7 md:grid-cols-2">
+      <H2 showBorder mb="mb-6">Languages</H2>
+      <div className="grid gap-4 leading-7 md:grid-cols-2">
         <LanguageItem language="German" proficiency="Native language" />
         <LanguageItem language="English" proficiency="C2" />
         <LanguageItem language="French" proficiency="B1" />
