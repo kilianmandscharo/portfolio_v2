@@ -18,6 +18,12 @@ export default function Music() {
             <source src="/music/christmas_prelude_d_minor.mp3" type="audio/mpeg" />
           </audio>
         </div>
+        <div>
+          <H2>A Nocturnal Christmas (2024)</H2>
+          <audio controls className="rounded-lg">
+            <source src="/music/a_nocturnal_christmas.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
       </div>
     </>
   );
