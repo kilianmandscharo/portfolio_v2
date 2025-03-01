@@ -32,7 +32,7 @@ export default function About() {
         full-stack web developer.
       </P>
       <P>
-        Currently I am working as a Junior Software Developer at{" "}
+        Currently I am working as a Software Developer at{" "}
         <a
           className="underline decoration-primary-300"
           href="https://one-unity.de/"
